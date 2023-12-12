@@ -4,7 +4,7 @@ import { Gym } from "@prisma/client"
 interface CreateGymUseCaseRequest {
   title: string
   description: string | null
-  phone: string
+  phone: string | null
   latitude: number
   longitude: number
 }
