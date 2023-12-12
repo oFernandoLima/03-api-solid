@@ -1,5 +1,5 @@
 /* eslint-disable @typescript-eslint/no-empty-function */
-import { Prisma, PrismaClient } from "@prisma/client"
+import { PrismaClient } from "@prisma/client"
 import "dotenv/config"
 import { execSync } from "node:child_process"
 import { randomUUID } from "node:crypto"
